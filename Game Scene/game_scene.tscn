@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://ivr3i80i3j5s"]
+
+[ext_resource type="PackedScene" uid="uid://rvbf4rwqy467" path="res://Player/player.tscn" id="1_pmw7x"]
+[ext_resource type="PackedScene" uid="uid://c4efrxjimqdg2" path="res://Characters/animal.tscn" id="2_q2hex"]
+
+[node name="Game Scene" type="Node2D"]
+
+[node name="Player" parent="." instance=ExtResource("1_pmw7x")]
+position = Vector2(1476, 1310)
+
+[node name="Animal" parent="." instance=ExtResource("2_q2hex")]
+position = Vector2(2612, 1524)
